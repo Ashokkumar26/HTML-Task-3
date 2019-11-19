@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+.nav1{
+	background-color: black;
+    color: white;
+    font-size: 16px;
+    width:100%;
+    height: 40px;
+    padding: 5px;
+}
+.nav ul{
+	padding: 0px 5px;
+}
+.nav1 ul li{
+	float:left;
+	list-style-type: none;
+	padding: 5px 10px;
+
+}
+.nav2{
+	list-style-type: none;
+	padding: 10px 20px; 
+	background-color: gray;
+    width: 100%;
+    height: 70px;
+}
+.nav2 select{
+	margin-left: 150px;
+	margin-top: 5px;
+	padding: 12px 50px;
+	color: white;
+	float: left;
+	background-color: darkviolet;
+}
+.nav2 input{
+	padding: 12px 10px;
+	width: 400px;
+	margin-top: 5px;
+}
+img[src="square.png"]{
+       position: absolute;
+       left:520px;
+       top:65px;
+}
+.nav2 li{
+	margin-left: 80px; 
+	font-family: algerian;
+	margin-top: 10px;
+	font-size: 25px; 
+	color: white;
+	float: left;
+}
+img[src="call back.png"]{
+     height: 50px;
+     width: 100px; 
+     position:absolute; 
+     top:40px; 
+     right:5px;
+ }
+ .nav2 p{
+ 	color:white; 
+ 	position:absolute; 
+    right:10px;
+    top:90px;
+ }
+.nav3{
+	margin-top: 10px;
+	background-color: lightgray;
+	padding: 10px 20px;
+	border-bottom: 5px solid black;
+}
+.nav3 select[name="ACTIVE"]{
+	padding: 10px 25px;
+	background-color: darkviolet;
+	color: white;
+}
+img[src="search.jpg"]{
+    position: absolute;
+	left: 450px; 
+	top:135px;
+}
+.x1{
+	background-color: lightgray;
+	border-style: none;
+	padding-right: 7px;
+	font-size: 17px;
+}
+.nav3 input[type="search"]{
+	padding: 10px;
+	width: 350px;
+	padding-left: 0px;
+	color: skyblue;
+}
+input[type="reset"]{
+    padding: 10px 35px;
+    float: right;
+    border-style: none; 
+    background-color: red;
+}
+img[src="plus.png"]{
+    margin-left: 5px; 
+    margin-top: 5px; 
+    position: absolute; 
+    top: 132px;
+}
+input[type="submit"]{
+    padding: 10px 35px;
+    float: right; 
+    background-color: darkgreen;
+    margin-right: 10px;
+    border-style: none;
+}
+.container{
+	padding: 0px 10px;
+}
+.galary{
+    margin-top: 15px;	
+	margin-left: 50px;
+	float: left;
+	border-style: 2px solid black;
+}
+img[src="galary.png"]{
+	height: 30px; 
+	width: 30px;
+	float: right;
+	margin-top: -10px;
+
+}
+.description{
+	padding: 5px;
+	width: 270px;
+	margin-top: -5px;
+	background-color: darkviolet;
+}
+.container button{
+	padding: 5px 20px;
+	margin-top: 20px;
+	position: relative;
+	left:46%;
+	background-color: lightgray;
+}
+.footer ul{
+	list-style-type: none;
+}
+.footer ul li{
+	float: left;
+	padding: 5px 5px;
+	color: white;
+}
+.footer{
+	margin-top: 20px;	
+	background-color: black;
+	overflow-x: hidden;
+}
+hr { 
+	margin-top: 10px;
+	background: red;
+	height: 2px;
+	width: 40%;
+	border-style: none; 
+}
+.hr{
+	width: 42%;
+float:right;
+position: relative;
+bottom:10px;
+}
+h2{
+	text-align: center;
+	position:relative;
+	color:white;
+	font-size: 25px;
+	left:20px;
+	bottom: 90px;
+	font-family: algerian;
+
+}
+img[src="castle1.png"]{
+	position:relative;
+	left:530px;
+	bottom: 30px;
+
+} 
+.icon{
+	position: relative;
+	left: 540px;
+	bottom:65px;
+}
+.icon img{
+   margin-left: 20px;
+}
+h4{
+	color: white;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	bottom: 50px;
+}
